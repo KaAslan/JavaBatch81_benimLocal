@@ -29,5 +29,7 @@ public class C05_ArrayeElementEkleme {
         // son index'e ise eklenecek ismi atadim
         return yeniSinifListesi;
 
+
+
     }
 }

@@ -7,7 +7,5 @@ public class question1 {
         // Ornegin : (1101) binary sayisi 13 sayisina esittir
 
 
-
-
     }
 }
