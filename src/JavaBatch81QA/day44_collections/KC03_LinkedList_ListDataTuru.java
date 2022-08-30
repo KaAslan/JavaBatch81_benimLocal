@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class K_C03_LinkedList_ListDataTuru {
+public class KC03_LinkedList_ListDataTuru {
 
     public static void main(String[] args) {
 
