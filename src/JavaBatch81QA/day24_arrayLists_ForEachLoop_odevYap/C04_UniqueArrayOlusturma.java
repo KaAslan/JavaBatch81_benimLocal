@@ -13,9 +13,12 @@ public class C04_UniqueArrayOlusturma {
         int[] uniqueArray=uniqueArrayOlustur(arr);
         System.out.println(Arrays.toString(uniqueArray));
     }
+
+
     public static int[] uniqueArrayOlustur(int[] arr) {
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr)); // [1, 2, 3, 3, 3, 4, 5, 5, 5, 5, 6, 6, 9]
+
         List<Integer> benzersizList = new ArrayList<>();
         // yanindaki elemente esit olmayanlari listeye ekliyor
         for (int i = 0; i < arr.length-1 ; i++) {

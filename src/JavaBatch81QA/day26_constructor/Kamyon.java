@@ -10,6 +10,7 @@ public class Kamyon {
         this.model=model;
         this.yil=yil;
         this.fiyat=fiyat;
+
         /*
           bizim temel amacimiz KamyonRunner'da argument olarak girilen degerin
           Kamyon class'inda intstance variable'a atanmasi
@@ -29,6 +30,8 @@ public class Kamyon {
     }
     public Kamyon(){
     }
+
+
     @Override
     public String toString() {
         return

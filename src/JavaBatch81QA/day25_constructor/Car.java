@@ -8,7 +8,7 @@ public class Car {
     variable ve method'lari bu class'da belirleriz
     sonra farkli class'larda araba olusturmamiz gerekirse
     bu class'dan bir obje olusturup
-    burada belirlenen variable ve method'lara gore araba uretiri
+    burada belirlenen variable ve method'lara gore araba uretiriz
      */
 
     String marka="Marka belirtilmedi";

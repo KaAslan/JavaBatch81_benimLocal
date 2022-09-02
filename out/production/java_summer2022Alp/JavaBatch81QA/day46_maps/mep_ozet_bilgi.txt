@@ -1,0 +1,39 @@
+
+                         MEP OZET BILGI
+
+      1- Mep: gercek projedeki data base sistemine en uygun java projesidir
+
+      2- Mep'lerde ayni ozelliklere sahip ve ozellikleri ayni bicimde tektiplestirilmis datalar
+      saklayabiliz.
+
+      3- tektiplestirme somradan datalara ulasabilmek icin onemli
+
+      4- Mep'e ekleyecegimiz tum ozellikler 2 parcadan (key/ value)'den olusmalidir. key ve value icin
+      data turu sinirlamasi yoktur, istedigimiz data turunu secebiliriz.
+
+      5- Map olusturuken  key ve value'nun data turune kara vermis olmamiz ve bunu deklare
+      etmemiz gerekir
+
+      6- Mep'te tum islemler key uzerinden yapilir, bundan dolayi key degerleri unique(yunik) olmalidir
+
+      7- Bir firmada calisitigimizda eger map kullaniliyorsa, map'in data yapisi hep ayni olacaktir.
+      bizden istenen herhengi bir gorevi yaparken, gorevi bagimsiz methodlarla kurgulamak ilerde
+      yapacagimiz gorevlerde kolaylik saglayacaktir.
+
+       map.contains(key) ==> verdigimiz key'in map'de olup olmadigini boolean olarak doner
+       map.contains(value) ==> bir butun olarak value'nun map'de olup olmadigini doner
+       ONEMLI NOT : map.contains(value) value'nun icindeki bir parcayi bulmada ise yaramaz
+       eger value icindeki bir parcayi aratmak istiyorsak
+       map uzerinde manipulation yapmamiz lazim
+       map.get(key) ==> verilen key'e ait degeri dondurur
+
+       Map'lerde replace tum value'yu degistirmek istersek kullanilabilir
+       kismi degisikliklerde kullanamayiz
+
+        Java Entry<K,V> map'in ivcerisinde bulunan her bir kaydi
+        K=V seklinde tutar
+        dolayisiyla herhangi bir Entry'e ulastigimizda
+        hem key'e hem de value'ya ulasabilir ve istedigimiz islemleri yapabiliriz
+        entry.getKey() bize key'i getirir
+        entry.getValue() bize value'yu getirir
+        entry.setValue() value'yu istedigimiz deger olarak update eder

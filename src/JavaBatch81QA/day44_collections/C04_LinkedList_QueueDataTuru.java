@@ -16,6 +16,10 @@ public class C04_LinkedList_QueueDataTuru {
         System.out.println(ll3); // [Adem, Zeynep, Hpolat, Kadir]
         System.out.println(ll3.remove()); // Adem
         System.out.println(ll3); // [Zeynep, Hpolat, Kadir]
+/*
+       .remove()--> normal kullanimdan farklidir. icine parametre istemez. direk ilk elementi
+       siler.Silinen elementi dondurur.
+*/
         System.out.println(ll3.remove("Hpolat")); // true
         System.out.println(ll3); // [Zeynep, Kadir]
 
@@ -30,12 +34,15 @@ public class C04_LinkedList_QueueDataTuru {
         // aralarindaki fark bos liste olursa peek null doner, element exception firlatir
 
 
-        ll3.offer("Ahmet");// SONA EKLEME YAPAR
+        ll3.offer("Ahmet");// SONA EKLEME YAPAR. icine parametre ister.
         ll3.offer("Sefa");
         System.out.println("offer()SONA EKLE metodu sonrasi ile "+ll3); // [Zeynep, Kadir, Ahmet] +Sefa
 
-        System.out.println("poll() İLK INDEXDEKİ ELEMENTİ SİLER VE DONER :" + ll3.poll()); // Zeynep  -->  İLK ELEMENTİ SİLER VE ONU DONER
+        System.out.println("poll() İLK INDEXDEKİ ELEMENTİ SİLER VE DONER :" + ll3.poll());
+        // Zeynep  -->  İLK ELEMENTİ SİLER VE ONU DONER
+
         System.out.println("poll() sonrasi :"+ ll3); // [Kadir, Ahmet, Sefa]
+
         //System.out.println(ll4.remove()); // throws exception NoSuchElementException
         System.out.println("BOS LISTEDE ilk elementi sil poll() NULL VERİR :" + ll4.poll()); // null
 

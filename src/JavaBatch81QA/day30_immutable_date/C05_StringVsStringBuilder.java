@@ -11,6 +11,7 @@ public class C05_StringVsStringBuilder {
           aradaki farki bulalim
           ayni islemi string builder icin de yapalim
          */
+
         LocalTime baslangic=LocalTime.now();
         String str="Ahhhh Java";
         for (int i = 0; i <10000 ; i++) {

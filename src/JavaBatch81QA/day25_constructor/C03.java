@@ -7,15 +7,20 @@ public class C03 {
     variable ve method olusturup
     bunlari baska class'lardan kullanmak icin olusturulur
      */
+
     /*
      Default constructor, parametresizdir
-     goremezsek bile ihtiyac oldugunda calisir
+     goremesek bile ihtiyac oldugunda calisir
      Class icerisinde parametreli veya parametresiz
      herhangi bir constructor olusturursak
      java default constructor'i siler
      */
+
+
     C03(){
     }
+
+
     /*
      Olusturdugumuz parametresiz bu constructor
      Default constructor ile 1-1 aynidir.
@@ -23,6 +28,7 @@ public class C03 {
      default constructor demeyiz
      parametresiz constructor deriz.
      */
+
     String isim="Etka";
     public void method01(){
         System.out.println("C03 method calisti");
